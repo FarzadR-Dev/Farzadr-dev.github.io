@@ -3321,7 +3321,7 @@ body.is-preload .wrapper.fade>.inner {
     -ms-transition: opacity 1s ease;
     transition: opacity 1s ease;
     min-height: 100%;
-    opacity: 1;
+    opacity: 0.5;
     width: 100%;
 }
 
