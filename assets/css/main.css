@@ -3289,6 +3289,7 @@ body.is-preload .wrapper.fade>.inner {
     cursor: default;
     height: 100vh;
     left: 0;
+    opacity: 0.5;
     overflow-x: hidden;
     overflow-y: auto;
     position: fixed;
