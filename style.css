@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* font-family: 'Advent Pro'; */
+    font-size: medium;
+    font-family: 'Courier New', monospace;
+}
+
+a {
+    color: #f06d06;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box1 {
+    padding-top: 15%;
+    text-align: center;
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    line-height: 50%;
+    color: rgb(0, 0, 0);
+    background: linear-gradient( white, white 50%, #333 50%, rgb(196, 28, 78));
+    background-size: 100% 200%;
+    transition: all 0.2s ease;
+    animation: down-bump 0.4s ease;
+}
+
+.box2 {
+    padding-top: 15%;
+    text-align: center;
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    line-height: 50%;
+    color: rgb(0, 0, 0);
+    background: linear-gradient( white, white 50%, #333 50%, rgb(155, 155, 155));
+    background-size: 100% 200%;
+    transition: all 0.2s ease;
+    animation: down-bump 0.4s ease;
+}
+
+.box3 {
+    padding-top: 15%;
+    text-align: center;
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    line-height: 50%;
+    color: rgb(0, 0, 0);
+    background: linear-gradient( white, white 50%, #333 50%, rgb(50, 92, 207));
+    background-size: 100% 200%;
+    transition: all 0.2s ease;
+    animation: down-bump 0.4s ease;
+}
+
+.box1,
+.box2,
+.box3 h2 {
+    font-weight: 400;
+    letter-spacing: -1.5px;
+    line-height: 1.2;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover {
+    background-position: 100% 100%;
+    animation: down-bump 0.4s ease;
+}
+
+.box1:hover h2 {
+    color: #c2184b;
+}
+
+.box2:hover h2 {
+    color: #c2184b;
+}
+
+.box3:hover h2 {
+    color: #c2184b;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover h2 span {
+    color: white;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover h3 {
+    color: #999;
+    font-size: medium;
+}
+
+@keyframes up-bump {
+    0% {
+        padding-top: 2em;
+    }
+    50% {
+        padding-top: 1.5em;
+    }
+    100% {
+        padding-top: 2em;
+    }
+}
+
+@keyframes down-bump {
+    0% {
+        padding-top: 2em;
+    }
+    50% {
+        padding-top: 2.5em;
+    }
+    100% {
+        padding-top: 2em;
+    }
+}
+
+p {
+    padding-top: 50%;
+    text-align: center;
+    top: 50%;
+    vertical-align: middle;
+    font-weight: bold;
+}
