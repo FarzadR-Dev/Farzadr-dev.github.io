@@ -1,2 +1,1 @@
-bruh
-https://farzadr.me/
+
